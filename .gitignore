@@ -1,0 +1,29 @@
+# 1. 결과물 폴더 (results 폴더 내의 모든 파일 무시)
+results/
+
+# 2. 세미나 발표 자료 및 문서 파일 확장자 무시
+*.ppt
+*.pptx
+*.pdf
+*.key
+*.hwpx
+
+# (선택) 만약 발표 자료가 특정 폴더에 모여있다면 아래처럼 폴더째로 무시할 수도 있습니다.
+# seminar/
+# presentation/
+
+# 3. JetBrains / PyCharm 프로젝트 설정 파일
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 4. Python 및 가상환경 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.ipynb_checkpoints/
